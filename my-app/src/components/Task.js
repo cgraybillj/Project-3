@@ -5,7 +5,7 @@ import { toggleTask } from "../redux/actions";
 
 const Task = ({ task, toggleTask }) => (
   <li className="task-item" onClick={() => toggleTask(task.id)}>
-    {task && task.completed ? "👌" : "👋"}{" "}
+    {task && task.completed ? "👍" : "👎"}{" "}
     <span
       className={cx(
         "task-item__text",
