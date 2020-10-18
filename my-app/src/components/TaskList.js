@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import Task from "./Task";
-import { getTaskByFilter } from "../redux/selectors";
+import { getTasksByFilter } from "../redux/selectors";
 
 const TaskList = ({ tasks }) => (
   <ul className="task-list">
@@ -14,8 +14,8 @@ const TaskList = ({ tasks }) => (
 );
 
 const mapStateToProps = state => {
-  const { Filters } = state;
-  const tasks = getTaskByFilter(state, Filter);
+  const { Filter } = state;
+  const tasks = getTasksByFilter(state, Filter);
   return { tasks };
 };
 

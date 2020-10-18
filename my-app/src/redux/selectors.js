@@ -8,11 +8,7 @@ export const getTaskList = store =>
 export const getTaskById = (store, id) =>
   getTasksState(store) ? { ...getTasksState(store).byIds[id], id } : {};
 
-/**
- * example of a slightly more complex selector
- * select from store combining information from multiple reducers
- */
-export const getTasks = store =>
+  export const getTasks = store =>
   getTaskList(store).map(id => getTaskById(store, id));
 
 export const getTasksByFilter = (store, Filter) => {
