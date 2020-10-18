@@ -1,4 +1,4 @@
-import { ADD_TASK, TOOGLE_TASK, SET_FILTER, TOGGLE_TASK } from "./actionTypes"
+import { ADD_TASK, SET_FILTER, TOGGLE_TASK } from "./actionTypes"
 
 let nextTaskID = 0;
 
