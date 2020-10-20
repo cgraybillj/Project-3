@@ -1,5 +1,5 @@
 .task-app {
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .task-todo {
@@ -19,7 +19,7 @@
 }
 .task-item__text--completed {
   text-decoration: line-through;
-  color: lightgray;
+  color: red;
 }
 
 .filter {
