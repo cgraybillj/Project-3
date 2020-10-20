@@ -1,3 +1,11 @@
+Carlos Graybill
+
+This is my third project using react-redux to create a Task App. My code allows for a user to input tasks, cross out tasks upon completion, and filter between complete and incomplete tasks. 
+
+Improvement:
+
+With future knowledge of Javascript, React-Redux it maybe be a good idea to revise it and create a more dynamic version of the app with more content and options for the user. Need to also add a way to store the values users input. Need to fix the contact page and about page. Its kind of lame.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
