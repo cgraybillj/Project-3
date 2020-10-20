@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title> Tasks App </title>
+</head>
+
+<body>
+
+    <ul class='nav'>
+        <li><a href=".\index.html">Tasks</a></li>
+        <li><a href=".\contact.html">Contact</a></li>
+    </ul>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm"> </div>
+            <div class="col-sm">
+                <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                        <div class="form-group">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="React">
+                          </div>
+                          <div class="form-group">
+                            <label for="LastName">Last Name:</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Redux">
+                          </div>
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="React_Redux@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Comments:</label>
+                            <input type="email" class="form-control" id="comment" placeholder="React-Redux is awesome!">
+                          </div>
+                    <button type="submit" className="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm"> </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
